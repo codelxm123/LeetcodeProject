@@ -28,6 +28,3 @@ class Solution(object):
                 maxlen=nowlen
                 maxs=s[head+1:tail]
         return maxs
-str=input()
-my_solution=Solution()
-print(my_solution.longestPalindrome(str))
