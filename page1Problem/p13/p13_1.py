@@ -24,7 +24,3 @@ class Solution(object):
                     ans+=num
                     break
         return ans
-
-str=input()
-m_solution=Solution()
-print(m_solution.romanToInt(str))
