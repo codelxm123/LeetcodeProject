@@ -22,5 +22,3 @@ class Solution(object):
             return []
         self.dfs(0,n,digits)
         return self.ans_list
-m_solution=Solution()
-print(m_solution.letterCombinations("24554"))
