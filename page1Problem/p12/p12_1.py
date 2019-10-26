@@ -38,7 +38,3 @@ class Solution(object):
             else:
                 s=""
         return s
-
-my_solution=Solution()
-x=int(input())
-print(my_solution.intToRoman(x))
