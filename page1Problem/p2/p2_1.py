@@ -36,31 +36,3 @@ class Solution(object):
             else:
                 add_num=0
         return ans_head
-
-def printAns(resList):
-    if resList==None:
-        return
-    printAns(resList.next)
-    print(resList.val,end="")
-
-str1=input()
-str2=input()
-n1=len(str1)
-n2=len(str2)
-l1=ListNode(int(str1[0]))
-for i in range(1,n1):
-    p=ListNode(int(str1[i]))
-    p.next=l1
-    l1=p
-l2=ListNode(int(str2[0]))
-for i in range(1,n2):
-    p=ListNode(int(str2[i]))
-    p.next=l2
-    l2=p
-m_solution=Solution()
-printAns(l1)
-print()
-printAns(l2)
-print()
-res_list=m_solution.addTwoNumbers(l1,l2)
-printAns(res_list)
