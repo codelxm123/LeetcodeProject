@@ -13,6 +13,3 @@ class Solution(object):
             if m_map.__contains__(remain):
                 return (m_map[remain],i)
             m_map[nums[i]]=i
-
-a=Solution()
-print(a.twoSum([3,2,4],6))
