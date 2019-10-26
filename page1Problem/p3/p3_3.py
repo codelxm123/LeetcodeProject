@@ -21,8 +21,3 @@ class Solution(object):
                 k+=1
             m_max=max(m_max,k-i)
         return m_max
-
-m=Solution()
-print(m.lengthOfLongestSubstring(" aaa"))
-
-
