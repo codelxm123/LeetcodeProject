@@ -54,8 +54,3 @@ class Solution(object):
                 if (not ch[i][j]==' '):
                     resStr+=ch[i][j]
         return resStr
-
-s=input()
-numRows=int(input())
-my_solution=Solution()
-print(my_solution.convert(s,numRows))
