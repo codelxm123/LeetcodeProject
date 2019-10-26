@@ -11,11 +11,3 @@ class Solution(object):
             for j in range(n):
                 s=max(s,min(height[i],height[j])*(j-i))
         return s
-
-n=int(input())
-m_list=[]
-for i in range(n):
-    m=int(input())
-    m_list.append(m)
-my_solution=Solution()
-print(my_solution.maxArea(m_list))
