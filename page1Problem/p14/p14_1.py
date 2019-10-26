@@ -18,9 +18,3 @@ class Solution(object):
                     return s
             s=s+ch
         return s
-m_solution=Solution()
-n=int(input())
-str_list=[]
-for i in range(n):
-    str_list.append(input())
-print(m_solution.longestCommonPrefix(str_list))
