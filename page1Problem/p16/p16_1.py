@@ -28,5 +28,3 @@ class Solution(object):
                         ans = sum + nums[tail+1]
                 mid+=1
         return ans
-m_solution=Solution()
-print(m_solution.threeSumClosest([-1,2,1,-4],-4))
