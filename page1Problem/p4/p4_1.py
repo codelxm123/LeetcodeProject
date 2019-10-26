@@ -27,7 +27,3 @@ class Solution(object):
             if (sumlen%2==0):
                 ans=(ans+self.m_findKth(self,nums1,1,n1,nums2,1,n2,sumlen//2))/2
             return ans
-m_solution=Solution()
-a=[1,3]
-b=[2]
-print(m_solution.findMedianSortedArrays(a,b))
