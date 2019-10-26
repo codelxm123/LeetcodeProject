@@ -25,6 +25,3 @@ class Solution(object):
                 ans=k-i
             m_max=max(m_max,ans)
         return m_max
-
-m=Solution()
-print(m.lengthOfLongestSubstring(""))
