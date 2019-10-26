@@ -55,9 +55,3 @@ class Solution(object):
                 return -2147483648
             else:
                 return -int(strnum)
-
-
-m_solution=Solution()
-for _ in range(100):
-    str=input()
-    print(m_solution.myAtoi(str))
