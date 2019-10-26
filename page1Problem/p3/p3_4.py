@@ -27,8 +27,3 @@ class Solution(object):
             m_max = max(m_max,tail - i)
             k=tail
         return m_max
-
-m=Solution()
-print(m.lengthOfLongestSubstring("a "))
-
-
