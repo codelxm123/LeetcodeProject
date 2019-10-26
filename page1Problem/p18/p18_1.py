@@ -34,8 +34,3 @@ class Solution(object):
                             else:
                                 head+=1
         return res_list
-
-m_solution=Solution()
-nums=[-1,0,1,2,-1,-4]
-target=-1
-print(m_solution.fourSum(nums,target))
