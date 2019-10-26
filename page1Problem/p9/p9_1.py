@@ -15,6 +15,3 @@ class Solution(object):
             if not (my_str[i]==my_str[n-1-i]):
                 return False
         return True
-num=int(input())
-my_solution=Solution()
-print(my_solution.isPalindrome(num))
