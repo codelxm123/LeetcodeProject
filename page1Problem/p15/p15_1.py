@@ -30,9 +30,3 @@ class Solution(object):
                 head+=1
 
         return res
-n=int(input())
-nums=[]
-for _ in range(n):
-    nums.append(int(input()))
-m_solution=Solution()
-print(m_solution.threeSum(nums))
