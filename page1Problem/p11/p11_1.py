@@ -28,6 +28,3 @@ class Solution(object):
                     break
                 s=max(s,min(h2,h1)*(idx2-idx1))
         return s
-m_list=[1,8,6,2,5,4,8,3,7]
-my_solution=Solution()
-print(my_solution.maxArea(m_list))
