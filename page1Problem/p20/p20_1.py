@@ -20,7 +20,3 @@ class Solution(object):
             return True
         else:
             return False
-m_solution=Solution()
-for _ in range(30):
-    str=input()
-    print(m_solution.isValid(str))
