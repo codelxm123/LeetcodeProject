@@ -42,9 +42,3 @@ def printList(l):
         printList(l.next)
     else:
         print(l.val)
-
-l=createList([1,2,3,4,5])
-n=2
-m_solution=Solution()
-printList(m_solution.removeNthFromEnd(l,n))
-
